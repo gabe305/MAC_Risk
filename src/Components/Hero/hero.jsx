@@ -8,7 +8,21 @@ function hero() {
       <p className="hero__desc">
         Random information about Mac Risk Services maybe something like a motto
       </p>
-      <button>Contact Us</button>
+      <button className="hero__button">Contact Us</button>
+      <section className="hero__cardBox">
+        <div className="hero__cards">
+          <div>Texty text texters</div>
+        </div>
+        <div className="hero__cards">
+          <div>Texty text texters</div>
+        </div>
+        <div className="hero__cards">
+          <div>Texty text texters</div>
+        </div>
+        <div className="hero__cards">
+          <div>Texty text texters</div>
+        </div>
+      </section>
     </div>
   );
 }
