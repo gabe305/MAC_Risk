@@ -1,0 +1,19 @@
+.services {
+  background-color: #f3f3f3;
+  height: 1546px;
+
+  &__cardBox {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    margin-bottom: 196px;
+    height: 1250px;
+  }
+  &__card {
+    width: 230px;
+    height: 290px;
+    background-color: #ffffff;
+  }
+}
