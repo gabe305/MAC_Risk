@@ -1,0 +1,10 @@
+.who {
+  &__bigBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__const {
+    width: 333px;
+  }
+}
