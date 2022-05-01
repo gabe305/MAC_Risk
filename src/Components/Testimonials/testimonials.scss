@@ -1,0 +1,28 @@
+.testimonials {
+  color: #ffffff;
+  background-color: #17213c;
+  &__bigBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &--indi {
+      width: 325px;
+      height: 408px;
+      background-color: #ffffff;
+      color: #252b42;
+      margin-bottom: 30px;
+      &__last {
+        margin-bottom: 144px;
+        width: 325px;
+        height: 408px;
+        color: #252b42;
+        background-color: #ffffff;
+      }
+    }
+  }
+}
