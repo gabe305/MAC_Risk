@@ -6,6 +6,13 @@
     flex-direction: column;
     align-items: center;
   }
+  &__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 262px;
+    text-align: center;
+  }
   &__client {
     display: flex;
     flex-direction: column;

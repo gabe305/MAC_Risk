@@ -5,10 +5,12 @@ function testimonials() {
   return (
     <div className="testimonials">
       <section className="testimonials__bigBox">
-        <h2>Testimonials</h2>
-        <p>
-          A summary of what it means to become a client of MAC Risk Services
-        </p>
+        <div className="testimonials__title">
+          <h2>Testimonials</h2>
+          <p>
+            A summary of what it means to become a client of MAC Risk Services
+          </p>
+        </div>
         <div className="testimonials__client">
           <div className="testimonials__client--indi">
             <h3>Tim Allen</h3>

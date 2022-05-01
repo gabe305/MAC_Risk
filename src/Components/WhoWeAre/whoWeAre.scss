@@ -7,4 +7,11 @@
   &__const {
     width: 333px;
   }
+  &__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 252px;
+    text-align: center;
+  }
 }
