@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  textarea {
+    width: 308px;
+    height: 90px;
+    background-color: #f9f9f9;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+  }
+  &__photo {
+    width: 100vw;
+  }
+  &__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__label {
+    display: flex;
+    flex-direction: column;
+    width: 314px;
+    label {
+      margin: 12px 0px 10px;
+    }
+    input {
+      background-color: #f9f9f9;
+      height: 50px;
+      border: 1px solid #bdbdbd;
+      border-radius: 5px;
+    }
+  }
+  &__button {
+    background-color: #ff7b47;
+    border: none;
+    color: #ffffff;
+    width: 314px;
+    height: 58px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
