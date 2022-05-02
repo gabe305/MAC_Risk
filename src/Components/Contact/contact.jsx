@@ -6,7 +6,7 @@ function contact() {
   return (
     <div className="form">
       <div>
-        <img src={closeUp} alt="Photo of MAC founder" className="form__photo" />
+        <img src={closeUp} alt="MAC founder" className="form__photo" />
         <form className="form__box">
           <h2>Contact us today</h2>
           <div className="form__label">
