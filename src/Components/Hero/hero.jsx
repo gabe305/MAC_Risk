@@ -8,7 +8,9 @@ function hero() {
       <p className="hero__desc">
         Random information about Mac Risk Services maybe something like a motto
       </p>
-      <button className="hero__button">Contact Us</button>
+      <a href="#contact">
+        <button className="hero__button">Contact Us</button>
+      </a>
       <section className="hero__cardBox">
         <div className="hero__cards">
           <div>Texty text texters</div>

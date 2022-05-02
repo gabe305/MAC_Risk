@@ -7,7 +7,7 @@ function contact() {
     <div className="form">
       <div>
         <img src={closeUp} alt="MAC founder" className="form__photo" />
-        <form className="form__box">
+        <form className="form__box" id="contact">
           <h2>Contact us today</h2>
           <div className="form__label">
             <label>Name*</label>
