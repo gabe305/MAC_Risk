@@ -68,8 +68,10 @@
     }
     &__cardBox {
       flex-direction: row;
-      justify-content: space-evenly;
-      height: none;
+      justify-content: space-between;
+      height: 96px;
+      width: 100%;
+      background-color: #ffffff;
     }
   }
 }

@@ -15,5 +15,19 @@
     width: 230px;
     height: 290px;
     background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (min-width: 1049px) {
+    height: 474px;
+    display: flex;
+    justify-content: center;
+    &__cardBox {
+      flex-direction: row;
+      height: 474px;
+      padding-top: 0px;
+      width: 1049px;
+    }
   }
 }
