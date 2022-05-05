@@ -30,4 +30,9 @@
       margin-right: 39px;
     }
   }
+  @media (min-width: 1049px) {
+    &__bigBox {
+      height: 136px;
+    }
+  }
 }

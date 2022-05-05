@@ -8,6 +8,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   &__title {
     margin: 84px 0px 40px 0px;
     width: 230px;
@@ -43,5 +49,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  @media (min-width: 1049px) {
+    height: 793px;
+    &__box {
+      width: 1049px;
+    }
+    &__title {
+      margin-top: 224px;
+      width: 635px;
+      font-size: 58px;
+    }
+    &__desc {
+      width: 539px;
+    }
+    &__button {
+      margin-bottom: 120px;
+    }
+    &__cardBox {
+      flex-direction: row;
+      justify-content: space-evenly;
+      height: none;
+    }
   }
 }
