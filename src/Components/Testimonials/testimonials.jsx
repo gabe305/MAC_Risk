@@ -1,5 +1,6 @@
 import React from "react";
 import "./testimonials.scss";
+import examplePhoto from "../../Assets/Images/circle-box.svg";
 
 function testimonials() {
   return (
@@ -13,30 +14,51 @@ function testimonials() {
         </div>
 
         <div className="testimonials__client">
-          <div className="testimonials__client--indi">
-            <h3>Tim Allen</h3>
-            <h6>Job Title</h6>
+          <div className="testimonials__box">
+            <img
+              src={examplePhoto}
+              alt="profile"
+              className="testimonials__image"
+            />
+            <div className="testimonials__client--indi">
+              <h3>Tim Allen</h3>
+              <h6>Job Title</h6>
 
-            <p className="testimonials__para">
-              Raving reviews about how much MAC Risk Serivices has helped him
-              and his company
-            </p>
+              <p className="testimonials__para">
+                Raving reviews about how much MAC Risk Serivices has helped him
+                and his company
+              </p>
+            </div>
           </div>
-          <div className="testimonials__client--indi">
-            <h3>Tito Puente</h3>
-            <h6>Job Title</h6>
-            <p className="testimonials__para">
-              Raving reviews about how much MAC Risk Serivices has helped him
-              and his company
-            </p>
+          <div className="testimonials__box">
+            <img
+              src={examplePhoto}
+              alt="profile"
+              className="testimonials__image"
+            />
+            <div className="testimonials__client--indi">
+              <h3>Tito Puente</h3>
+              <h6>Job Title</h6>
+              <p className="testimonials__para">
+                Raving reviews about how much MAC Risk Serivices has helped him
+                and his company
+              </p>
+            </div>
           </div>
-          <div className="testimonials__client--indi__last">
-            <h3>WIllie Colon</h3>
-            <h6>Job Title</h6>
-            <p className="testimonials__para">
-              Raving reviews about how much MAC Risk Serivices has helped him
-              and his company
-            </p>
+          <div className="testimonials__box">
+            <img
+              src={examplePhoto}
+              alt="profile"
+              className="testimonials__image"
+            />
+            <div className="testimonials__client--indi__last">
+              <h3>WIllie Colon</h3>
+              <h6>Job Title</h6>
+              <p className="testimonials__para">
+                Raving reviews about how much MAC Risk Serivices has helped him
+                and his company
+              </p>
+            </div>
           </div>
         </div>
       </section>

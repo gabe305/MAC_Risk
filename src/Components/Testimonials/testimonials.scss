@@ -6,6 +6,16 @@
     flex-direction: column;
     align-items: center;
   }
+  &__box {
+    display: flex;
+  }
+  &__image {
+    height: 96px;
+    width: 96px;
+    position: relative;
+    left: 69px;
+    top: 16px;
+  }
   &__title {
     display: flex;
     flex-direction: column;
@@ -18,6 +28,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    h3 {
+      padding-left: 82px;
+    }
+    h6 {
+      padding-left: 82px;
+    }
     &--indi {
       width: 325px;
       height: 408px;
@@ -33,10 +49,17 @@
       }
     }
   }
+  &__para {
+    padding-left: 82px;
+  }
   @media (min-width: 1049px) {
     &__para {
       white-space: normal;
-      width: 490px;
+      width: 431px;
+      padding-left: 60px;
+    }
+    &__image {
+      left: 107px;
     }
     &__client {
       flex-direction: row;
@@ -45,6 +68,13 @@
       overflow-x: auto;
       white-space: nowrap;
       width: 90vw;
+
+      h3 {
+        padding-left: 60px;
+      }
+      h6 {
+        padding-left: 60px;
+      }
 
       &--indi {
         width: 490px;
