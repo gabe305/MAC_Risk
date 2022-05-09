@@ -1,12 +1,14 @@
 import React from "react";
 import "./contact.scss";
 import closeUp from "../../Assets/Images/miguel_closeup.jpg";
+import Desktop from "../../Assets/Images/miguel_desk.jpg";
 
 function contact() {
   return (
     <div className="form">
-      <div>
+      <div className="form__bigBox">
         <img src={closeUp} alt="MAC founder" className="form__photo" />
+        <img src={Desktop} alt="MAC founder" className="form__photo--desk" />
         <form className="form__box" id="contact">
           <h2>Contact us today</h2>
           <div className="form__label">

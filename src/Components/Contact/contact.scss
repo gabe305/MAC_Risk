@@ -11,6 +11,9 @@
   }
   &__photo {
     width: 100vw;
+    &--desk {
+      display: none;
+    }
   }
   &__box {
     display: flex;
@@ -39,5 +42,36 @@
     height: 58px;
     margin-top: 40px;
     margin-bottom: 40px;
+  }
+  @media (min-width: 1049px) {
+    background-color: #f3f3f3;
+    textarea {
+      width: 579px;
+    }
+    &__label {
+      width: 585px;
+    }
+    &__button {
+      width: 585px;
+      font-weight: bold;
+    }
+    &__bigBox {
+      display: flex;
+      flex-direction: row;
+      margin-top: 150px;
+      background-color: #ffffff;
+      margin-bottom: 100px;
+    }
+    &__box {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+    &__photo {
+      display: none;
+      &--desk {
+        display: initial;
+        width: 363px;
+      }
+    }
   }
 }
