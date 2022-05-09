@@ -23,8 +23,8 @@ function whoWeAre() {
               as what sets MAC apart from the rest
             </p>
             <ul>
-              <li>advantages we can provide</li>
-              <li>advantages our risk services can provide</li>
+              <li>Advantages we can provide</li>
+              <li>Advantages our risk services can provide</li>
             </ul>
           </div>
         </div>

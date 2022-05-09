@@ -12,6 +12,7 @@
     align-items: center;
     width: 262px;
     text-align: center;
+    margin-top: 75px;
   }
   &__client {
     display: flex;
@@ -29,6 +30,33 @@
         height: 408px;
         color: #252b42;
         background-color: #ffffff;
+      }
+    }
+  }
+  @media (min-width: 1049px) {
+    &__para {
+      white-space: normal;
+      width: 490px;
+    }
+    &__client {
+      flex-direction: row;
+      margin-bottom: 113px;
+      margin-top: 90px;
+      overflow-x: auto;
+      white-space: nowrap;
+      width: 90vw;
+
+      &--indi {
+        width: 490px;
+        height: 228px;
+        margin-left: 5vw;
+        &__last {
+          width: 490px;
+          height: 228px;
+          margin-bottom: 30px;
+          margin-left: 5vw;
+          margin-right: 5vw;
+        }
       }
     }
   }
