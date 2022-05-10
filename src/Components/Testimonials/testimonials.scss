@@ -51,6 +51,7 @@
   }
   &__para {
     padding-left: 82px;
+    color: #737373;
   }
   @media (min-width: 1049px) {
     &__para {
@@ -59,7 +60,7 @@
       padding-left: 60px;
     }
     &__image {
-      left: 107px;
+      left: 114px;
     }
     &__client {
       flex-direction: row;
