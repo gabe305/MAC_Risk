@@ -1,20 +1,22 @@
 import React from "react";
+import Hamburger from "..//Hamburger/hamburger";
 import "./nav.scss";
 
 function nav() {
   return (
     <div className="nav">
-      <section className="nav__bigBox">
-        <h3 className="nav__title">MAC Risk Services</h3>
-        <div className="nav__cta">
-          <a href="#top">
+      {/* <section className="nav__bigBox"> */}
+      {/* <h3 className="nav__title">MAC Risk Services</h3> */}
+      {/* <div className="nav__cta"> */}
+      <Hamburger />
+      {/* <a href="#top">
             <p>Home</p>
           </a>
           <a href="#contact">
             <p className="nav__cta--contact">Contact</p>
-          </a>
-        </div>
-      </section>
+          </a> */}
+      {/* </div> */}
+      {/* </section> */}
     </div>
   );
 }

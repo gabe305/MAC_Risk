@@ -4,7 +4,7 @@ import construction from "../../Assets/Images/miguel_construction.jpg";
 
 function whoWeAre() {
   return (
-    <div>
+    <div id="whoweare">
       <section className="who__bigBox">
         <div className="who__title">
           <h2>Who We Are</h2>
