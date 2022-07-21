@@ -1,5 +1,5 @@
-// import Nav from "./Components/Nav/nav";
-import Hamburger from "./Components/Hamburger/hamburger";
+import Nav from "./Components/Nav/nav";
+import Hamburger from "./Components/HamburgerModal/HamburgerModal";
 import Hero from "./Components/Hero/hero";
 import Services from "./Components/Services/services";
 import WhoWeAre from "./Components/WhoWeAre/whoWeAre";
@@ -10,8 +10,7 @@ import "./app.scss";
 function App() {
   return (
     <div>
-      {/* <Nav /> */}
-      <Hamburger />
+      <Nav />
       <Hero />
       <Services />
       <WhoWeAre />
