@@ -1,5 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 
+
 .hamburger {
   color: #737373 !important;
 }
@@ -19,6 +20,7 @@
   }
 
   &__item {
+    font-family: Montserrat;
     font-size: 30px;
     font-weight: 400;
     line-height: 45px;
@@ -27,7 +29,7 @@
   }
 
   &__link {
-  
+    
   }
 }
 

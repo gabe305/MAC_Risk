@@ -1,5 +1,4 @@
 import Nav from "./Components/Nav/nav";
-import Hamburger from "./Components/HamburgerModal/HamburgerModal";
 import Hero from "./Components/Hero/hero";
 import Services from "./Components/Services/services";
 import WhoWeAre from "./Components/WhoWeAre/whoWeAre";
