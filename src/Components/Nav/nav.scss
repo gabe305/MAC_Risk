@@ -13,25 +13,29 @@
     font-size: 22px;
     font-weight: 700;
     text-align: left;
-    padding-left: 36px;
   }
+
   &__bigBox {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
     width: 100vw;
+    padding-top: 8.125%;
     position: fixed;
     z-index: 100;
     background-color: #f7f7f7;
   }
-  &__cta {
+
+  &__top-container {
     display: flex;
-    margin-top: 4.5px;
+    justify-content: space-between;
+    margin-inline: auto;
+    width: 83.755%;
     &--contact {
       margin-left: 21px;
       margin-right: 39px;
     }
   }
+
   @media (min-width: 1049px) {
     &__bigBox {
       height: 136px;
