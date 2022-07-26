@@ -20,9 +20,12 @@
     justify-content: space-between;
     @include desktop {
       flex-direction: row;
-      margin-top: auto;
+      margin-top: 0;
       height: auto;
-      width: 600px;
+      width: 330px;
+      margin-bottom: 0;
+      position: relative;
+      left: 90px;
     }
   }
 
@@ -34,7 +37,9 @@
     letter-spacing: 0.20000000298023224px;
     text-align: center;
     @include desktop {
-      color: white;
+      font-size: .875rem;
+      line-height: 1.5rem;
+      font-weight: 600;
     }
   }
 
@@ -42,7 +47,6 @@
     text-decoration: none;
     color: black;
     @include desktop {
-      color: white;
     }
   }
 }
