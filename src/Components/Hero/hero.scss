@@ -29,6 +29,7 @@
       margin-top: 200px;
       width: 635px;
       font-size: 58px;
+      padding-top: 30px;
     }
   }
   &__desc {
@@ -51,6 +52,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    @include desktop {
+      position: relative;
+      top: 65px;
+    }
   }
   &__cards {
     width: 230px;

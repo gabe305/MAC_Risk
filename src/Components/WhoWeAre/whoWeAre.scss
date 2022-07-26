@@ -11,14 +11,37 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 252px;
+    width: 275px;
     text-align: center;
+    padding-block: 17% 8%;
+    & h2 {
+      font-size: 2.5rem;
+      line-height: 3.5625rem;
+      font-weight: 700;
+    }
     &--second {
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 252px;
+      width: 275px;
       text-align: center;
+      margin-block: 17% 8%;
+      & h2 {
+        font-size: 2.5rem;
+        line-height: 3.5625rem;
+        font-weight: 700;
+      }
+      & ul {
+        list-style: none;
+        padding-left: 0;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        & li {
+          font-weight: 700;
+        }
+      }
     }
   }
   &__box {
