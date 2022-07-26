@@ -51,7 +51,7 @@ function testimonials() {
               alt="profile"
               className="testimonials__image"
             />
-            <div className="testimonials__client--indi__last">
+            <div className="testimonials__client--indi__last testimonials__client--indi">
               <h3>WIllie Colon</h3>
               <h6>Job Title</h6>
               <p className="testimonials__para">

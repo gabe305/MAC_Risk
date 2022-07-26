@@ -7,14 +7,14 @@
     align-items: center;
   }
   &__box {
-    display: flex;
+    position: relative;
   }
   &__image {
     height: 96px;
     width: 96px;
-    position: relative;
-    left: 69px;
-    top: 16px;
+    position: absolute;
+    top: 28px;
+    left: -27.5px;
   }
   &__title {
     display: flex;
@@ -23,6 +23,11 @@
     width: 262px;
     text-align: center;
     margin-top: 75px;
+    & h2 {
+      font-size: 2.5rem;
+      line-height: 3.5625rem;
+      font-weight: 700;
+    }
   }
   &__client {
     display: flex;
@@ -40,6 +45,7 @@
       background-color: #ffffff;
       color: #252b42;
       margin-bottom: 30px;
+      padding-top: 30px;
       &__last {
         margin-bottom: 144px;
         width: 325px;
