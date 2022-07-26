@@ -1,11 +1,13 @@
+@use "../../styles/partials/mixins" as *;
+
 .nav {
   background-color: #f7f7f7;
   display: flex;
   justify-content: space-between;
-
-  a {
-    text-decoration: none;
-    color: #000000;
+  @include desktop {
+    position: fixed;
+    z-index: 5;
+    background: none;
   }
 
   &__title {
@@ -13,6 +15,9 @@
     font-size: 22px;
     font-weight: 700;
     text-align: left;
+    @include desktop {
+      color: white;
+    }
   }
 
   &__bigBox {
@@ -20,9 +25,11 @@
     flex-direction: column;
     width: 100vw;
     padding-top: 8.125%;
-    position: fixed;
-    z-index: 100;
     background-color: #f7f7f7;
+    @include desktop {
+      position: fixed;
+      background: none;
+    }
   }
 
   &__top-container {
@@ -30,9 +37,17 @@
     justify-content: space-between;
     margin-inline: auto;
     width: 83.755%;
+    @include desktop {
+    }
     &--contact {
       margin-left: 21px;
       margin-right: 39px;
+    }
+  }
+
+  &__hamburgerButton {
+    @include desktop {
+      color: white;
     }
   }
 

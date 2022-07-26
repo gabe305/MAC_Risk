@@ -1,13 +1,14 @@
-@import "~bootstrap/scss/bootstrap";
-
-
-.hamburger {
-  color: #737373 !important;
-}
+@use "../../styles/partials/mixins" as *;
 
 .ham {
   width: 100vw;
   height: 100vh;
+
+  @include desktop {
+    width: auto;
+    height: auto;
+    position: relative;
+  }
   &__list {
     display: flex;
     flex-direction: column;
@@ -17,6 +18,12 @@
     height: 250px;
     padding: 0;
     justify-content: space-between;
+    @include desktop {
+      flex-direction: row;
+      margin-top: auto;
+      height: auto;
+      width: 600px;
+    }
   }
 
   &__item {
@@ -26,10 +33,17 @@
     line-height: 45px;
     letter-spacing: 0.20000000298023224px;
     text-align: center;
+    @include desktop {
+      color: white;
+    }
   }
 
   &__link {
-    
+    text-decoration: none;
+    color: black;
+    @include desktop {
+      color: white;
+    }
   }
 }
 
