@@ -10,6 +10,7 @@ function Nav() {
 
   const handleShowModal = () => {
     setShowHamModal(!showHamModal)
+    document.body.style.overflow = "hidden"
   }
 
   if(isDesktop) {

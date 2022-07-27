@@ -4,9 +4,9 @@
   background-color: #f7f7f7;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  z-index: 5;
   @include desktop {
-    position: fixed;
-    z-index: 5;
     background: none;
   }
 
