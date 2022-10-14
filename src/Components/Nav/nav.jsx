@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import hamburger from "../../Assets/Icons/hamburger.svg";
 import Hamburger from "../HamburgerModal/HamburgerModal";
 import "./nav.scss";
@@ -10,8 +10,15 @@ function Nav() {
 
   const handleShowModal = () => {
     setShowHamModal(!showHamModal)
-    document.body.style.overflow = "hidden"
   }
+
+  useEffect(() => {
+    if(showHamModal) {
+      document.body.style.overflow = "hidden"
+    } else {
+      document.body.style.overflow = "scroll"
+    }
+  }, [showHamModal, setShowHamModal])
 
   if(isDesktop) {
     return (
