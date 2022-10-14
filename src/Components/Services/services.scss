@@ -8,6 +8,10 @@
     align-items: center;
     padding-block: 100px 70px;
   }
+  &__heading {
+    margin-bottom: 0px;
+    font-weight: 700;
+  }
   &__card {
     width: 230px;
     min-height: 320px;
@@ -16,6 +20,12 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-inline: 28px;
+    padding-block: 40px;
   }
   @media (min-width: 1049px) {
     height: 474px;
