@@ -22,11 +22,10 @@ function testimonials() {
             />
             <div className="testimonials__client--indi">
               <h3>Tim Allen</h3>
-              <h6>Job Title</h6>
+              <h6>Actor</h6>
 
               <p className="testimonials__para">
-                Raving reviews about how much MAC Risk Serivices has helped him
-                and his company
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta non pulvinar. 
               </p>
             </div>
           </div>
@@ -38,10 +37,9 @@ function testimonials() {
             />
             <div className="testimonials__client--indi">
               <h3>Tito Puente</h3>
-              <h6>Job Title</h6>
+              <h6>Musician</h6>
               <p className="testimonials__para">
-                Raving reviews about how much MAC Risk Serivices has helped him
-                and his company
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
               </p>
             </div>
           </div>
@@ -53,10 +51,9 @@ function testimonials() {
             />
             <div className="testimonials__client--indi__last testimonials__client--indi">
               <h3>WIllie Colon</h3>
-              <h6>Job Title</h6>
+              <h6>Musician</h6>
               <p className="testimonials__para">
-                Raving reviews about how much MAC Risk Serivices has helped him
-                and his company
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta non pulvinar.
               </p>
             </div>
           </div>
